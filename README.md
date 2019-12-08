@@ -1,17 +1,14 @@
-# college-notice-board-scrapper
-This program is to scrap the my college website to collect the current notice board and send email 
+# College Website Notice Board Scrapper
 
-the working of it is very simple it scapes the webiste and find potential new news and send it from a secondary mail to my primary email 
+This program is written in [python](https://www.python.org/) and the main function  to find if there is any new notice in the website of [RCC Institute of Information Technology](http://rcciit.org/updates/notice.aspx) and Email the date along with the content of the of the notice to the desired Email id.
 
-----------------------------------------------------------------------------------------------------------------------------------------
-the required modules are:
--> beautifulsoup  
--> csv
--> stmplib  
-----------------------------------------------------------------------------------------------------------------------------------------
+## Pre-Installed Modules
 
-description of the content of the files:
+- [requests](https://2.python-requests.org/en/master/)
+- [csv](https://www.pythonforbeginners.com/systems-programming/using-the-csv-module-in-python/)
+- [smtplib](https://www.pythonforbeginners.com/code-snippets-source-code/using-python-to-send-email/)
+- [datetime](https://www.w3schools.com/python/python_datetime.asp)
 
-webscrapper.py -> is the main file which contains all the working of the program
-credentials -> contains the emails password smtp server 
-date -> stores the dates of the previous notice
+## Third Party Module Required
+
+-  [Beautiful soup](https://pypi.org/project/beautifulsoup4/) `pip install beautifulsoup4`
